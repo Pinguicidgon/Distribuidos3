@@ -13,30 +13,39 @@ Este proyecto implementa una aplicación cliente-servidor usando CORBA (Common O
 ### 1️. Generar las clases CORBA
 
 Desde la carpeta donde se encuentra `Biblioteca.idl`:
-idlj -fall Biblioteca.idl
 
+```bash
+idlj -fall Biblioteca.idl
+```
 
 ### 2️. Compilar el servidor y cliente
 
+```bash
 javac ServidorBiblioteca.java
 javac ClienteBiblioteca.java
-
+```
 
 ### 3️. Ejecutar la aplicación
 
 Abrir tres terminales:
 
 **a. Naming Service**
+
+```bash
 tnameserv -ORBInitialPort 1050
+```
 
 **b. Servidor**
 
+```bash
 java ServidorBiblioteca -ORBInitialHost localhost -ORBInitialPort 1050
+```
 
 **c. Cliente**
 
+```bash
 java ClienteBiblioteca -ORBInitialHost localhost -ORBInitialPort 1050
-
+```
 
 ## Funcionalidades implementadas
 
