@@ -58,8 +58,46 @@ El cliente puede realizar las siguientes operaciones:
 
 ## Diagrama del sistema
 
-Insertar diagrama
+## 📋 Diagrama UML
 
+```mermaid
+classDiagram
+    class GestionBiblioteca {
+        <<interface>>
+        + obtenerLibro(String) : String
+        + agregarLibro(String, String) : void
+        + buscarPorAutor(String) : String
+        + eliminarLibro(String) : void
+    }
+
+    class GestionBibliotecaImpl {
+        - libros : Map~String, String~
+        - orb : ORB
+        + setORB(ORB) : void
+        + obtenerLibro(String) : String
+        + agregarLibro(String, String) : void
+        + buscarPorAutor(String) : String
+        + eliminarLibro(String) : void
+    }
+
+    class ServidorBiblioteca {
+        + main(String[]) : void
+    }
+
+    class ClienteBiblioteca {
+        + main(String[]) : void
+    }
+
+    class ORB {
+        <<external>>
+    }
+
+    GestionBibliotecaImpl ..|> GestionBiblioteca : implements
+    ServidorBiblioteca --> GestionBibliotecaImpl : creates
+    ServidorBiblioteca --> ORB : uses
+    ClienteBiblioteca --> GestionBiblioteca : uses
+    ClienteBiblioteca --> ORB : uses
+```
 
 
 
