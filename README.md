@@ -144,4 +144,18 @@ java ClienteBiblioteca -ORBInitialHost 192.168.1.15 -ORBInitialPort 1050
 
 Esto haría que nuestro cliente busque el objeto remoto en el servidor CORBA que corre en la IP 192.168.1.15.
 
+## Capturas pedidas
+Las capturas se han hecho a partir de la pruebas creadas para ver su total funcionamiento
+
+### CORBA
+![image](https://github.com/user-attachments/assets/1adbf678-7078-46ef-b9e5-95677bfc2aba)
+
+
+### Servidor
+![image](https://github.com/user-attachments/assets/e866ec17-94ac-4e3b-bbfc-62a769dbd02e)
+
+
+### Cliente
+![image](https://github.com/user-attachments/assets/c96cd64f-d8fd-40e0-b2db-0a43a8e60a4f)
+
 
