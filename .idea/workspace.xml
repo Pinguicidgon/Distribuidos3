@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a4f2d99-c769-4b67-80ad-1b51f17e5485" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca.idl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distribuidos3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/GestionBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/GestionBibliotecaHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/GestionBibliotecaHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/GestionBibliotecaOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/GestionBibliotecaPOA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biblioteca/_GestionBibliotecaStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClienteBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ServidorBiblioteca.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a4f2d99-c769-4b67-80ad-1b51f17e5485" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
